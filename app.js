@@ -12,8 +12,8 @@ input.onGesture(Gesture.Shake, function () {
     faktor1 = 0;
     faktor2 = 0;
     enere = 0;
-    faktor1 = Math.randomRange(0, 5);
-    faktor2 = Math.randomRange(0, 10);
+    faktor1 = Math.randomRange(0, 100);
+    faktor2 = Math.randomRange(0, 100);
     basic.showString("" + faktor1 + "X" + faktor2 + "=");
     basic.showString("" + faktor1 * faktor2);
 })
